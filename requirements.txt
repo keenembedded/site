@@ -7,7 +7,6 @@ certifi==2019.11.28
 chardet==3.0.4
 django-heroku==0.3.1
 django-storages==1.7.1
-dbus-python==1.2.16
 docutils==0.14
 Django==3.1
 gunicorn==20.0.4
@@ -15,7 +14,6 @@ idna==2.8
 jsonpatch==1.22
 pyasn1==0.4.2
 pyasn1-modules==0.2.1
-PyGObject==3.36.0
 PyHamcrest==1.9.0
 PyJWT==1.7.1
 pylint==2.6.0
