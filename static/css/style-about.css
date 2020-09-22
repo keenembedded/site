@@ -17,21 +17,24 @@
     line-height: 60px;
     word-spacing: 10px;
 }
-.expertInTech h3{
-    font-size: 50px;
+.expertInTech {
+    margin: 50px 0 100px    ;
 }
 
-.expertInTech .experties-list{
+.expertInTech h4{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.expertInTech ul{
     margin-left:120px ;
     font-size: 20px;
     line-height: 40px;
-}
-
-.expertInTech .experties-list ul{
     list-style: none;
 }
 
-.expertInTech .experties-list ul li:before {
+
+.expertInTech ul li:before {
     content: '✓';
     
 }
@@ -48,15 +51,17 @@
     }
 
 
-    .expertInTech h3{
+    .expertInTech {
         text-align: center;
     }
 
-    .expertInTech .experties-list{
-        text-align: center;
+    .expertInTech ul {
         margin-left:0px ;
         font-size: 20px;
         line-height: 40px;
         padding-bottom: 100px;
     }
+
+
+
 }
