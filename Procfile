@@ -1,1 +1,1 @@
-web: ginicorn keenEmbedded.wsgi
+web: gunicorn keenEmbedded.wsgi
