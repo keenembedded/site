@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+We Build Your Dream
+{% endblock title %}
+
+
+{% block css %}
+{% load static %}
+
+{% endblock css %}
+
+{% block body %}
+
+    <main id="main-site">
+        <section class="main-top">
+            <div class="main-contant">
+                <h1 class="main-title">End to end product <span style="color: #0DA8FF;">development<span></h1>
+                <p> You might have visualized an innovative <br> product/solution but not able to bring it to reality
+                    due <br> to
+                    various issues like lack of technical expertise,<br> hurdles in end to end execution for same.<br>
+                    We can help !
+                </p>
+                <a href="#">Book Your Project</a>
+            </div>
+        </section>
+
+        <!-- product section -->
+        <div class="container-product">
+            <h3 class="h3">Product </h3>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid5">
+                        <div class="product-image5">
+        
+                            <img class="pic-1"src=" {% static 'images/product/Picture1.png' %}">
+                            <a href="/contact/" class="select-options"><i class="fa fa-arrow-right"></i> Contact</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Men's Sweat Shirt</a></h3>
+                            <div class="price">$11.00 - $15.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid5">
+                        <div class="product-image5">
+                            <img class="pic-1" src="{% static 'images/product/Picture2.png' %}">
+                            <a href="/contact/" class="select-options"><i class="fa fa-arrow-right"></i> Contact</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Women's Shirt</a></h3>
+                            <div class="price">$10.00 - $12.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid5">
+                        <div class="product-image5">
+                                <img class="pic-1" src="{% static 'images/product/Picture3.png' %}">
+                             <a href="/contact/" class="select-options"><i class="fa fa-arrow-right"></i> Contact</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Men's Sweat Shirt</a></h3>
+                            <div class="price">$11.00 - $15.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid5">
+                        <div class="product-image5">
+                            <img class="pic-1" src="{% static 'images/product/Picture4.png' %}">
+                            <a href="/contact/" class="select-options"><i class="fa fa-arrow-right"></i> Contact</a>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">Men's Sweat Shirt</a></h3>
+                            <div class="price">$11.00 - $15.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- slogen-section -->
+        <section class="slogen-section">
+            <p>  Be the FIRST and BEST choice of customers and partners, be recognized as a preeminent embedded systems
+                solutions provider and be admired for our knowledge and experience with embedded systems.
+                Our vision means we continue to be the leading one stop solution provider for embedded solutions and
+                furthermore aspire to be recognized as a premier provider of total design and development solutions for
+                embedded systems in Indian markets.
+                We endeavor to translate our vast experience with advanced embedded technologies into high value for our
+                customers through our product portfolio, professional solutions and technical services.
+                We strive to be a reputed organization powered by knowledge, driven by business insights and guided by
+                integrity - hence become the FIRST and BEST PARTNER of choice.
+                 .</p>
+        </section>
+
+    </main>
+    
+     
+    <!-- Section: Team v.2 -->
+    <div class="py-5 team3 bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-7 text-center">
+                    <h3 class="mb-3">Experienced & Professional Team</h3>
+                    <h6 class="subtitle font-weight-normal">You can relay on our amazing features list and also our
+                        customer services will be great experience for you without doubt and in no-time</h6>
+                </div>
+            </div>
+            <div class="row">
+                <!-- column  -->
+                <div class="col-lg-4 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="{% static 'images/Team/neev.jpeg' %}"
+                                alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle">Property Specialist</h6>   
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- column  -->
+                <!-- column  -->
+                <div class="col-lg-4 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="col-md-12 pro-pic">
+                            <img src="{% static 'images/Team/mrp.jpeg' %}"
+                                alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle">Property Specialist</h6>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- column  -->
+                <!-- column  -->
+                <div class="col-lg-4 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="col-md-12 pro-pic">
+                            <img src="{% static 'images/Team/ganu.jpeg' %}"
+                                alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                                <h6 class="subtitle">Property Specialist</h6>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="text-decoration-none d-block px-1"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- column  -->
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}

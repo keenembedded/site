@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Product      
+{% endblock title %}       
+
+
+{% block css %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style-product.css' %}">
+{% endblock css %}
+    
+{% block body %}
+  <main>
+        <div class="grid-container">
+            <a href="/contact/">
+               <div class="grid-item">
+                <h3>CSE</h3>
+                <img src="{% static 'images/cs.png' %}" alt="">
+            </div>
+            </a>
+             <a href="/contact/">
+            <div class="grid-item">
+                <h3>IOT</h3>
+                <img src="{% static 'images/iot.png' %}" alt="">
+            </div>
+            </a>
+             <a href="/contact/">
+            <div class="grid-item">
+                <h3>MECH</h3>
+                <img src="{% static 'images/mech.png' %}" alt="">
+            </div>
+            </a>
+             <a href="/contact/">
+            <div class="grid-item">
+                <h3>ELE</h3>
+                <img src="{% static 'images/electrical.svg' %}" alt="">
+            </div>
+            </a>
+             <a href="/contact/">
+            <div class="grid-item">
+                <h3>EXTC</h3>
+                <img src="{% static 'images/extc.png' %}" alt="">
+            </div>
+            </a>
+             <a href="/contact/">
+            <div class="grid-item">
+                <h3>ADRINO</h3>
+                <img src="{% static 'images/extc.png' %}" alt="">
+            </div>
+            </a>
+        </div>
+
+    </main>
+{% endblock body %}

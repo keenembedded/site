@@ -1,0 +1,20 @@
+section {
+    margin: 6%;
+}
+
+.sendbtn {
+    background: #0DA8FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.sendbtn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+@media(max-width: 815px){
+    section {
+        margin: 6%;
+    }
+}

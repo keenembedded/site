@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About
+{% endblock title %}
+
+
+{% block css %}
+{% load static %}   
+<link rel="stylesheet" href="{% static 'css/style-about.css' %}">
+{% endblock css %}
+
+
+{% block body %}
+    <main class="about-main">
+        <div class="about-title">
+            <h2>About</h2>
+        </div>
+        <div class="about-content">
+            <p>
+                KeenEmbedded was founded in 2018 by three experienced Electronics engineers who wanted to build a
+                company focused on designing and building electronic systems within extremely tight schedules, giving
+                clients access to both knowledge of design as well as connecting them to a first rate project management
+                team. Drawing on skill sets from the Networking, IOT devices, Storage Networks and Handheld Devices
+                markets, Keenembed has grown into a highly regarded electronic design services firm. Our focus continues
+                to be on system design services, prototyping, and project management
+            </p>
+        </div>
+        <div class="expertInTech">
+            <h3>
+                We have <span style="color: #0DA8FF;">expertise in<span>
+            </h3>
+            <div class="experties-list">
+                <ul>
+                    <li> Different hardware platforms like TI MSP430 family, STM32 family, etc.</li>
+                    <li> Programming with C/C++, Python, C#, RTOS</li>
+                    <li> Machine learning, Deep learning</li>
+                    <li> Signal processing, Computer Vision
+                        mmWave</li>
+                    <li> Being small makes us more agile and adaptable to change. Our development approach reflect the same.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+{% endblock body %}

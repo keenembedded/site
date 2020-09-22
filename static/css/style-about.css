@@ -1,0 +1,62 @@
+/* anout */
+/* about-title */
+.about-main{
+    padding: 100px 0px 0px 160px;
+}
+.about-main .about-title {
+    font-size: 55px;
+}
+
+.about-main .about-content{
+    padding: 0 150px 0 120px;
+    text-align: center;   
+}
+
+.about-main .about-content p{
+    font-size: 24px;
+    line-height: 60px;
+    word-spacing: 10px;
+}
+.expertInTech h3{
+    font-size: 50px;
+}
+
+.expertInTech .experties-list{
+    margin-left:120px ;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.expertInTech .experties-list ul{
+    list-style: none;
+}
+
+.expertInTech .experties-list ul li:before {
+    content: '✓';
+    
+}
+
+
+
+@media screen and (max-width: 1079px){
+
+    .about-main{
+        padding: 0 0 0 0;
+    }
+    .about-main .about-title{
+        text-align: center;
+    }
+
+
+    .expertInTech h3{
+        text-align: center;
+    }
+
+    .expertInTech .experties-list{
+        text-align: center;
+        margin-left:0px ;
+        font-size: 20px;
+        line-height: 40px;
+        padding-bottom: 100px;
+    }
+}
