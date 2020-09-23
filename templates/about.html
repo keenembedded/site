@@ -6,37 +6,83 @@ About
 
 
 {% block css %}
-{% load static %}   
+{% load static %}
 <link rel="stylesheet" href="{% static 'css/style-about.css' %}">
 {% endblock css %}
 
 
 {% block body %}
-    <main class="about-main">
-        <div class="about-title">
-            <h2>About</h2>
+<div class="bg-light">
+    <div class="container py-5">
+        <div class="row h-100 align-items-center py-5">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-4">About us</h1>
+                <p class="lead text-muted mb-0"> <span style="color: #0DA8FF;font-weight:bold;"> KeenEmbedded </span>
+                    was founded in 2018 by three experienced Electronics engineers who wanted to build a
+                    company focused on designing and building electronic systems within extremely tight schedules,
+                    giving
+                    clients access to both knowledge of design as well as connecting them to a first rate project
+                    management
+                    team. Drawing on skill sets from the Networking, IOT devices, Storage Networks and Handheld Devices
+                    markets, Keenembed has grown into a highly regarded electronic design services firm. Our focus
+                    continues
+                    to be on system design services, prototyping, and project management </p>
+                <p class="lead text-muted">Snippet by <a href="https://bootstrapious.com/snippets" class="text-muted">
+                        <u>Bootstrapious</u></a>
+                </p>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block"><img
+                    src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt=""
+                    class="img-fluid"></div>
         </div>
-        <div class="about-content">
-            <p>
-                KeenEmbedded was founded in 2018 by three experienced Electronics engineers who wanted to build a
-                company focused on designing and building electronic systems within extremely tight schedules, giving
-                clients access to both knowledge of design as well as connecting them to a first rate project management
-                team. Drawing on skill sets from the Networking, IOT devices, Storage Networks and Handheld Devices
-                markets, Keenembed has grown into a highly regarded electronic design services firm. Our focus continues
-                to be on system design services, prototyping, and project management
-            </p>
-        </div>
-        <div class="expertInTech">
-            <h4>
-                We have <span style="color: #0DA8FF;">expertise in<span>
-            </h4>
-                <ul>
+    </div>
+</div>
+
+
+<div class="bg-white py-5">
+    <div class="container py-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                <h2 class="font-weight-light display-4">We have <span style="color: #0DA8FF;">expertise in<span></h2>
+                <ul class="font-italic text-muted mb-4">
                     <li> Iot</li>
                     <li> Programming with C/C++, Python,Java</li>
                     <li> Automation</li>
                     <li> Embedded Systems</li>
                     <li> Computers Systems</li>
                 </ul>
-        </div>
-    </main>
+            </div>
+        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img
+                    src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt=""
+                    class="img-fluid mb-4 mb-lg-0"></div>
+    </div>
+</div>
 {% endblock body %}
+
+
+
+<div class="about-title">
+    <h2>About</h2>
+</div>
+<div class="about-content">
+    <p>
+        KeenEmbedded was founded in 2018 by three experienced Electronics engineers who wanted to build a
+        company focused on designing and building electronic systems within extremely tight schedules, giving
+        clients access to both knowledge of design as well as connecting them to a first rate project management
+        team. Drawing on skill sets from the Networking, IOT devices, Storage Networks and Handheld Devices
+        markets, Keenembed has grown into a highly regarded electronic design services firm. Our focus continues
+        to be on system design services, prototyping, and project management
+    </p>
+</div>
+<div class="expertInTech">
+    <h4>
+        We have <span style="color: #0DA8FF;">expertise in<span>
+    </h4>
+    <ul>
+        <li> Iot</li>
+        <li> Programming with C/C++, Python,Java</li>
+        <li> Automation</li>
+        <li> Embedded Systems</li>
+        <li> Computers Systems</li>
+    </ul>
+</div>
