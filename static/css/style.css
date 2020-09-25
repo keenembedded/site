@@ -50,19 +50,18 @@ nav ul li {
 }
 
 
-nav ul li a {
+nav ul li a {   
+    text-decoration: none;
     color: white;
     font-size: 17px;
     padding:7px 13px;
-    text-decoration: none;
+    transition: background 0.5s;
 }
 
 
 nav ul li a:hover {
     background : #0DA8FF;
-    border-radius: 50px;
     color: white;
-    text-decoration: none;
 }
 
 .checkbtn {
