@@ -110,13 +110,15 @@ nav ul li a:hover {
         background: black;
         border: 1px solid black;
         text-decoration: none;
-        border-radius: 50px;
+        /* border-radius: 50px; */
         font-size: 20px;
         margin: 10px;
         min-width: 100px;
+        transition: background 0.5s;
     }
 
     .main-contant a:hover{
+        text-decoration: none;  
         background: #0DA8FF;
         color: white;
         border: #0DA8FF;
